@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Kode GO Sample"
+include ':app'
+include ':module_2'
+include ':myapplication'
+include ':adroid_life_cycle'
+include ':fragments'
+include ':savingimages'
+include ':firebase_chat'
+include ':pokemonapi'
